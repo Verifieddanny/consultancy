@@ -4,7 +4,7 @@ import OrangeArrow from "/svgs/OrangeArrow.svg";
 function Consultant() {
   return (
     <>
-      <div className="py-8 md:px-16 lg:px-48  px-5 flex md:flex-row flex-col gap-y-5 md:gap-x-8">
+      <div className="py-8 md:pt-10 md:px-16 lg:px-48  px-5 flex md:flex-row flex-col gap-y-5 md:gap-x-8">
         <img src={Map} className="md:w-1/2 w-full object-cover" />
         <div>
           <p className=" text-secondary poppins-bold">Talk to a Consultant</p>

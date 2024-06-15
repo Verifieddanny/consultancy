@@ -4,7 +4,7 @@ import Spotlight3 from "/svgs/spottlight-3.svg";
 
 function ConsultantSpotlight() {
   return (
-    <div className="py-8 w-full px-5 md:px-16 lg:px-48  bg-[#F1F8FF]">
+    <div className="py-8 md:pt-10 w-full px-5 md:px-16 lg:px-48  bg-[#F1F8FF]">
       <p className=" text-secondary poppins-bold">Our Services</p>
       <hr className="w-[4rem] border-primary border-[0.09rem] rounded-md mb-10" />
       <div className="w-full flex md:flex-row flex-col gap-y-12 md:gap-x-8">

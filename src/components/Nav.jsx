@@ -69,12 +69,24 @@ function Nav() {
             }
             `}
           >
-            <a href="#home">Home</a>
-            <a href="#about">About Us</a>
-            <a href="">Find A consultant</a>
-            <a href="#blog">News & Blogs</a>
-            <a href="#registeration">Register</a>
-            <a href="#contact">Contact us</a>
+            <a href="#home" onClick={() => setIsOpen(false)}>
+              Home
+            </a>
+            <a href="#about" onClick={() => setIsOpen(false)}>
+              About Us
+            </a>
+            <a href="" onClick={() => setIsOpen(false)}>
+              Find A consultant
+            </a>
+            <a href="#blog" onClick={() => setIsOpen(false)}>
+              News & Blogs
+            </a>
+            <a href="#registeration" onClick={() => setIsOpen(false)}>
+              Register
+            </a>
+            <a href="#contact" onClick={() => setIsOpen(false)}>
+              Contact us
+            </a>
             <img src={Search} className="w-[1rem] h-[1rem] hidden md:block" />
           </div>
 

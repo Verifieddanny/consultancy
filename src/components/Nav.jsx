@@ -57,7 +57,7 @@ function Nav() {
             />
 
             <p className="md:text-[1rem] text-[0.5rem] poppins-semibold">
-              Eco Consultancy
+              Consultant connect
             </p>
           </div>
           <div
